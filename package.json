@@ -15,13 +15,13 @@
     "dist": "npm run chrome-dist && npm run opera-dist && npm run firefox-dist"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.3",
-    "mermaid": "^8.0.0"
+    "@babel/polyfill": "^7.12.1",
+    "mermaid": "^8.9.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/register": "^7.4.0",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/register": "^7.12.13",
     "babel-core": "^7.0.0-bridge.0",
     "babelify": "^10.0.0",
     "browserify": "^16.2.3",
@@ -39,5 +39,9 @@
     "preprocessify": "^1.0.1",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
+  },
+  "volta": {
+    "node": "10.23.3",
+    "yarn": "1.22.10"
   }
 }

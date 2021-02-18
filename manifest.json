@@ -15,7 +15,9 @@
   },
   "permissions": [
     "https://github.com/*",
-    "https://*.github.com/*"
+    "https://*.github.com/*",
+    "https://oss.navercorp.com/*",
+    "https://*.oss.navercorp.com/*"
   ],
   "options_ui": {
     "page": "options.html"
@@ -24,7 +26,9 @@
     {
       "matches": [
         "https://github.com/*",
-        "https://*.github.com/*"
+        "https://*.github.com/*",
+        "https://oss.navercorp.com/*",
+        "https://*.oss.navercorp.com/*"
       ],
       "js": [
         "scripts/contentscript.js"

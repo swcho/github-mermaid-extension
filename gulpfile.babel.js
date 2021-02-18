@@ -93,7 +93,10 @@ scripts.forEach(script => {
             useBuiltIns: false
           }
         ]
-      ]
+      ],
+      // Ref: https://stackoverflow.com/a/39349302
+      global:true,
+      only: [/^(?:.*\/node_modules\/(?:entity-decode|b)\/|(?!.*\/node_modules\/)).*$/],
     })
     .transform(preprocessify, {
       includeExtensions: ['.js'],
